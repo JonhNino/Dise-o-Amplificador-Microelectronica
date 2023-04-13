@@ -1,0 +1,12 @@
+DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS=C:\Users\Usuario\Desktop\ADS_\CGH40_r6_converted\circuit\symbols;C:\Users\Usuario\Desktop\ADS_\CGH40_r6_converted\circuit\symbols;C:\Users\Usuario\Desktop\ADS_\murata_lib_ads2011later_54et\circuit\symbols;C:\Users\Usuario\Desktop\ADS_\murata_lib_ads2011later_54et\circuit\symbols
+SYSTEM_CUSTOM_CIRCUIT_SYMBOLS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_SYMBOLS};{$HPEESOF_DIR}\custom\{%PROJECT1}\symbols
+DESIGN_KIT_DATA_FILES=C:\Users\Usuario\Desktop\ADS_\CGH40_r6_converted\circuit\data;C:\Users\Usuario\Desktop\ADS_\CGH40_r6_converted\circuit\models;C:\Users\Usuario\Desktop\ADS_\murata_lib_ads2011later_54et\circuit\data;C:\Users\Usuario\Desktop\ADS_\murata_lib_ads2011later_54et\circuit\models
+DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_DESIGNS=C:\Users\Usuario\Desktop\ADS_\murata_lib_ads2011later_54et\circuit\artwork;C:\Users\Usuario\Desktop\ADS_\murata_lib_ads2011later_54et\circuit\artwork
+SYSTEM_CUSTOM_CIRCUIT_DESIGNS={%DESIGN_KIT_SYSTEM_CUSTOM_CIRCUIT_DESIGNS};{$HPEESOF_DIR}\custom\{%PROJECT1}\designs
+VIA_CONFIG_PATH={%DESIGN_KIT_VIA_CONFIG_PATH};.:{%PROJECT_SEARCH_PATH}:{$HOME}\hpeesof\de\defaults:{$HPEESOF_DIR}\de\defaults:{%DESIGN_KIT_VIA_CONFIG_PATH}:{%USER_VIA_CONFIG_PATH}
+LAST_LIBRARY_SELECTED=CGH40025F_lib
+SCHEM_FILE_OPEN_HISTORY_1=CGH40025F_lib:aomp2:schematic
+SCHEM_FILE_OPEN_HISTORY_2=CGH40025F_lib:Amplificador:schematic
+SCHEM_FILE_OPEN_HISTORY_3=CGH40025F_lib:Potencia:schematic
+SCHEM_FILE_OPEN_HISTORY_4=CGH40025F_lib:Redacopleentrada:schematic
+SCHEM_FILE_OPEN_HISTORY_5=CGH40025F_lib:Paraverentrada:schematic

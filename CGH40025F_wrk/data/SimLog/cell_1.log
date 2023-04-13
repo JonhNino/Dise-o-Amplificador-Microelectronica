@@ -1,0 +1,39 @@
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+CT DC_FET1.S1[1] <CGH40025F_lib:cell_1:schematic>   DC_FET1.VGS=(-2->0)
+
+DC DC_FET1.S1[1].DC_FET1.DC1[1/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-2  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[2/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-1.77778  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[3/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-1.55556  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[4/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-1.33333  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[5/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-1.11111  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[6/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-888.889e-03  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[7/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-666.667e-03  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[8/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-444.444e-03  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[9/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=-222.222e-03  DC_FET1.VDS=(0->80)
+.................................................................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[10/10] <CGH40025F_lib:cell_1:schematic>  DC_FET1.VGS=0  DC_FET1.VDS=(0->80)
+.................................................................................
+
+Resource usage:
+  Total stopwatch time     =     1.59 seconds.
+

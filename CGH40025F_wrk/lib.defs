@@ -1,0 +1,6 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+INCLUDE $HOME/Desktop/ADS_/CGH40_r6_converted/lib.defs
+INCLUDE $HOME/Desktop/ADS_/murata_lib_ads2011later_54et/lib.defs
+DEFINE CGH40025F_lib CGH40025F_lib
+ASSIGN CGH40025F_lib libMode shared

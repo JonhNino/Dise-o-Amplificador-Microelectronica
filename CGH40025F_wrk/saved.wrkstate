@@ -1,0 +1,8 @@
+<!DOCTYPE SaveWorkspaceState>
+<SaveWorkspaceState>
+    <Windows>
+        <Schematic width="1920" cell="AmOp_LinealReales" view="schematic" height="986" tune="0" y1="-11" x1="-11" lib="CGH40025F_lib"/>
+        <DDS name="AmOp_LinealReales.dds"/>
+    </Windows>
+    <MainWindowTab tab="1"/>
+</SaveWorkspaceState>

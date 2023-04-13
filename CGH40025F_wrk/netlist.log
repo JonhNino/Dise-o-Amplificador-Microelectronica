@@ -1,0 +1,136 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="CGH40025F_lib:AmOp_LinealReales:schematic"
+MLIN2:TL6  N__18 N__12 Subst="MSub1" W=1.675 mm L=5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL7  N__7 N__1 Subst="MSub1" W=1.675 mm L=64.89 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL5  N__10 N__31 Subst="MSub1" W=1.675 mm L=10 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL3  N__4 N__5 Subst="MSub1" W=1.675 mm L=147.627 mm notune{ 10 mm to 250 mm by 0.001 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLSC2:TL4  N__8 Subst="MSub1" W=1.675 mm L=107.36 mm notune{ 0 mm to 180 mm by 0.1 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee2  N__7 N__2 N__15 Subst="MSub1" W1=1.675 mm W2=1.675 mm W3=1.675 mm 
+MTEE_ADS:Tee3  N__6 N__12 N__1 Subst="MSub1" W1=1.675 mm W2=1.675 mm W3=1.675 mm 
+MTEE_ADS:Tee1  N__5 N__10 N__8 Subst="MSub1" W1=1.675 mm W2=1.675 mm W3=1.675 mm 
+GRM18:C2  N__24 N__14 PartNumber=666 
+
+#ifndef muRataLibWeb
+#define muRataLibWeb
+; models
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQW18AN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQW15AN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQW04AN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQP15MN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQP03TN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQP03TG.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQP03PN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQP02TQ.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQP02TN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQG18HN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQG15HS.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQG15HN.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LQG15HH.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LLR18.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LLL31.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LLL21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LLL1U.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LLL18.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/LLL15.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM55.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM43.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM42.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM32.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM31.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM18.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM15.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM03.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRM02.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRJ55.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRJ43.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRJ32.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRJ31.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GRJ21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR731.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR721.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR455.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR443.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR442.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR355.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR343.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR332.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR331.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GR321.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GQM22.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GQM21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GQM18.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJM15.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJM03.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJM02.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJ832.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJ831.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJ821.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GJ431.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM55.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM43.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM32.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM31.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM18.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM15.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCM03.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCJ55.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCJ43.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCJ32.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCJ31.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCJ21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCD21.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GCD18.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GC355.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GC343.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GC332.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GC331.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GC321.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA355.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA352.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA343.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA342.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA255.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA243.net"
+#include "C:/Users/Usuario/Desktop/ADS_/murata_lib_ads2011later_54et/circuit/models/GA242.net"
+#endif
+
+
+MSTEP:Step2  N__4 N__14 Subst="MSub1" W1=1.675 mm W2=0.8 mm 
+MLEF2:TL8  N__15 Subst="MSub1" W=1.675 mm L=32.44 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+V_Source:SRC2  V_DC 0 Type="V_DC" Vdc=28 V SaveCurrent=1 
+Short:I_DC  V_DC N__2 Mode=0 SaveCurrent=yes 
+#uselib "CGH40_r6" , "CGH40025F_r6_CGH40_r6"
+"CGH40025F_r6_CGH40_r6":X1  N__22 N__18 0 N__17 tcase=25 crth=3.8 
+MLIN2:TL9  N__22 N__3 Subst="MSub1" W=1.675 mm L=5 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee4  N__3 N__23 N__21 Subst="MSub1" W1=1.675 mm W2=1.675 mm W3=1.675 mm 
+MLIN2:TL10  N__25 N__21 Subst="MSub1" W=1.675 mm L=64.89 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee5  N__25 N__27 N__19 Subst="MSub1" W1=1.675 mm W2=1.675 mm W3=1.675 mm 
+MLEF2:TL11  N__19 Subst="MSub1" W=1.675 mm L=32.44 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+V_Source:SRC3  N__27 0 Type="V_DC" Vdc=-1.33 V SaveCurrent=1 
+MSTEP:Step3  N__6 N__24 Subst="MSub1" W1=1.675 mm W2=0.8 mm 
+GRM18:C3  N__20 N__28 PartNumber=666 
+MSTEP:Step4  N__47 N__20 Subst="MSub1" W1=1.675 mm W2=0.8 mm 
+MSTEP:Step5  N__23 N__28 Subst="MSub1" W1=1.675 mm W2=0.8 mm 
+Port:Term1  N__39 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__31 0 Num=2 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.5 GHz Stop=1 GHz Step=0.01 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+model MSub1 MSUB H=0.76 mm Er=3.5 Mur=1 Cond=58.5E+6 Hu=1e+033 mm T=0.035 mm TanD=0.002 Rough=0 mil DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL17  N__43 N__47 Subst="MSub1" W=1.675 mm L=151.52 mm tune{ 76.31 mm to 228.93 mm by 0.1 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MLIN2:TL18  N__39 N__48 Subst="MSub1" W=1.675 mm L=10 mm Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 
+MTEE_ADS:Tee7  N__48 N__43 N__45 Subst="MSub1" W1=1.675 mm W2=1.675 mm W3=1.675 mm 
+MLEF2:TL19  N__45 Subst="MSub1" W=1.675 mm L=25.01 mm tune{ 12.255 mm to 36.765 mm by 0.1 mm } Wall1=1.0E+30 mil Wall2=1.0E+30 mil Mod=1 

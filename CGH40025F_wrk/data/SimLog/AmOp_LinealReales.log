@@ -1,0 +1,10 @@
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 1
+
+
+SP SP1[1] <CGH40025F_lib:AmOp_LinealReales:schematic>   freq=(500 MHz->1 GHz)
+...................................................
+
+Resource usage:
+  Total stopwatch time     =     1.82 seconds.
+
